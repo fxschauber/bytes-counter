@@ -1,0 +1,36 @@
+{
+  "name": "bytes-counter",
+  "displayName": "Bytes Counter",
+  "description": "Counts selected C/C++ bytes in various formats",
+  "publisher": "fxschauber",
+  "repository": {
+    "url": "https://github.com/fxschauber/bytes-counter.git"
+  },
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.2.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^20.x.x",
+    "@types/vscode": "^1.97.0",
+    "@vscode/test-electron": "^2.4.1",
+    "chai": "^5.2.0",
+    "jest": "^29.7.0",
+    "mocha": "^11.1.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.x.x"
+  },
+  "license": "ISC"
+}

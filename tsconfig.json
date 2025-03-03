@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "module": "NodeNext", // Use Node.js ESM
+      "moduleResolution": "NodeNext", // Enable Node.js style resolution
+      "outDir": "out", // Keep compiled files in 'out'
+      "target": "ES2020" // Ensure modern syntax
+    },
+    "include": ["src"]
+  }
